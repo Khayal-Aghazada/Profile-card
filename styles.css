@@ -1,0 +1,86 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* font*/
+    background-color: #f4f4f4; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; /* height 100% of the viewport height. */
+    margin: 0;
+}
+
+/* Profile card styling */
+.profile-card {
+    width: 300px; 
+    height: 450px; 
+    background-color: white; 
+    border-radius: 10px; /* rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; /* hides any content that overflows the boundaries of the card. */
+}
+
+.profile-logo {
+    background-color: #007BFF;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile-logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h1 {
+    margin-top: 30px; 
+    font-size: 20px;
+    color: #333; /* text color */
+}
+
+.profile-info p {
+    color: #666; /* paragraph text color */
+    font-size: 16px;
+    margin: 10px 0; /* vertical 5px side margin 0 */
+}
+
+.social-icons {
+    margin: 20px 0; /* vertical 10px */
+}
+
+.social-icons a {
+    margin: 0 10px; /* horizontal 5px */
+}
+
+.social-icons img {
+    width: 35px; 
+    height: 35px;
+    opacity: 0.6; /* transparency */
+}
+
+.social-icons img:hover {
+    opacity: 1; /* on hover no transparency */
+}
+
+.message-btn {
+    background-color: #007BFF;
+    color: white; /* text color */
+    border: none;
+    width: calc(100% - 40px);
+    padding: 20px; 
+    font-size: 16px; /* font size */
+    cursor: pointer; /* changes the cursor to a pointer to indicate the button is clickable. */
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.message-btn:hover {
+    background-color: #0056b3; /* on hover no bg color change */
+} 
